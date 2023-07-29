@@ -132,18 +132,21 @@ outras operações em O(log n) para a maioria das operações, onde n é o núme
 
 Considere esse esboço ..
 
-![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/272a344a-bef7-49a5-843f-3b1f228c31d0)
+![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/bf0410c8-a3e9-481d-a294-3cbd337e468d)
+
 
 Nessa árvore, os nós estão representados com seus valores entre parênteses e a cor de cada nó é indicada entre parênteses também (Preto ou Vermelho).
 Suponha que precisamos aplicar uma rotação à esquerda no nó 25 para equilibrar a árvore:
 
-![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/8efda71c-ff60-4306-8949-224747b9051b)
+![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/3ef35719-7d86-44a7-897f-6e8a38ce6b72)
+
 
 O nó atual é o 25 (nó que estamos rotacionando), o filho à direita é o 30 e o neto esquerdo de 30 é nulo (ou seja, não existe).
 Fazemos a rotação à esquerda, movendo o nó 30 para o lugar do nó 25 e tornando o nó 25 o filho à esquerda do nó 30.
 A árvore ficará assim:
 
-![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/d9635f60-81c4-4b6f-88d7-ab9310ae8f08)
+![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/cb09d577-5413-42c6-87e8-3c6df3b9d91c)
+
 
 Em uma Analogia do Mundo real, é como se nós Pegássemos onde queremos rotacionar com os dedos e a arvore se combinasse em cores ordenadas pelos seus valores.seguramos o numero 25 com os dedos e a árvore se moveu para o lado direito.
 
