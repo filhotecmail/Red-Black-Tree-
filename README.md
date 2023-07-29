@@ -86,11 +86,13 @@ As operações de rotação são operações fundamentais em Árvores Rubro-Negr
 A rotação à esquerda é uma operação que envolve três nós: o nó atual (x), o filho à direita (y) e o neto esquerdo de y (b). 
 Essa operação é usada quando o nó x está desequilibrado para a direita.
 
+```bash
     x                   y
    / \                 / \
   a   y      -->      x   c
      / \             / \
     b   c           a   b
+```
 
 
 # Rotação à Direita (Right Rotation):
@@ -98,11 +100,13 @@ Essa operação é usada quando o nó x está desequilibrado para a direita.
 A rotação à direita é o oposto da rotação à esquerda e também envolve três nós: o nó atual (y), o filho à esquerda (x) e o neto direito de x (b). 
 Essa operação é usada quando o nó y está desequilibrado para a esquerda.
 
+```bash
       y                 x
      / \               / \
     x   c    -->      a   y
    / \                   / \
   a   b                 b   c
+```
 
 Ao inserir ou remover nós em uma Árvore Rubro-Negra, as rotações são aplicadas para ajustar a posição dos nós e preservar as propriedades da árvore, 
 como a altura negra (o número de nós pretos em qualquer caminho da raiz às folhas é o mesmo). Dessa forma, a árvore mantém sua eficiência de busca e 
