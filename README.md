@@ -153,7 +153,7 @@ Algoritmos de inserção para ARN.
 A inserção da árvore rubro-negra, a maior parte anterior é a mesma da árvore de busca binária ou seja, do nó raiz para baixo para encontrar a posição do nó a ser inserido, localizar inserir o no, 
 depois de inserir o nó a mais uma operação verificar se a árvore está balanceada se ela está desbalanceada é necessário repará-la para que a árvore fique equilibrada novamente então concluímos que toda vez que temos que inserir um novo nó temos que Equilbra-la.
 
-![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/755c6d8a-52de-46ae-aeb2-9b9a74bad63d)
+![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/f70cc759-7629-451e-ad23-4d0801bb95c5)
 
 
 
