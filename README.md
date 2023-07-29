@@ -167,6 +167,9 @@ Se o Nó P inserido no nó vermelhor e o nó U também for Vermelhor, então tra
 
 ![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/02bf8117-2111-4df4-ae79-0e0a5db7868c)
 
+Se o nó P do nóe de inserçã estiver vermelho e o nó U estiver Preto ou ausente e o nó de inserção for o nó filho esquerdo do seu nó P e o nó P for filho esquerdo do nó G, entao gire o nó P para preto e o nó G para vermelho, execute a operação destra do nó G e reinicie o ajuste de banalceamento da árvore.
+
+![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/814e1673-9f81-4724-bceb-15a859e1f995)
 
 
 
