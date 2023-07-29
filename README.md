@@ -139,4 +139,16 @@ A árvore ficará assim:
 
 Em uma Analogia do Mundo real, é como se nós Pegássemos onde queremos rotacionar com os dedos e a arvore se combinasse em cores ordenadas pelos seus valores.seguramos o numero 25 com os dedos e a árvore se moveu para o lado direito.
 
+### Inserção da árvore RB
+Algoritmos de inserção para ARN.
+
+A inserção da árvore rubro-negra, a maior parte anterior é a mesma da árvore de busca binária ou seja, do nó raiz para baixo para encontrar a posição do nó a ser inserido, localizar inserir o no, 
+depois de inserir o nó a mais uma operação verificar se a árvore está balanceada se ela está desbalanceada é necessário repará-la para que a árvore fique equilibrada novamente então concluímos que toda vez que temos que inserir um novo nó temos que Equilbra-la.
+
+![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/755c6d8a-52de-46ae-aeb2-9b9a74bad63d)
+
+
+
+
+
 
