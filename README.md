@@ -4,6 +4,14 @@ Agradeços a minha familía ,minha eposa e filha e meus pais.
 
 Isso é dedicado aos amigos que sempre me apoiaram aos estudos e com muita gentileza me proporcionam uma motivação para continuar nessa linha reta.
 
+Fontes de estudo.: https://pt.wikipedia.org/wiki/Rudolf_Bayer
+https://github.com/barbaraneves/estrutura-de-dados-avancada-2017-1/tree/master/ProjetosEDA/Rubro-Negra
+https://youtu.be/_lTz-ePzWjk [[ED] Aula 107 - Implementando uma Árvore Rubro Negra ]
+https://pt.wikipedia.org/wiki/%C3%81rvore_rubro-negra [ wikipedia ] 
+https://pages.cs.wisc.edu/~paton/readings/Red-Black-Trees/ [ James Paton. «Red-Black Trees» ] 
+
+
+
 ### Motivação
 O Estudo de Algoritmos para resolução de problemas de arvores sempre me fascinou, mas sempre o codifiquei em outras linguagens como por exemplo FORTRAn que é uma linguagem muito boa para codificação mais algoritma, por ser uma linguagem com muito poder computacional científico. O Desafio de estudar e aplicar isso dentro da minha zona de conforto em objetoPascal, é com certeza muito interessantee só amplia mais meu conhecimento e minhas técnicas para otimização. Estudar a RBT é um desafio adicional em Objectpacal, e é um cenário interessante para alicar e desenvolver isso com instruções diretas a registradores em determinados pontos codificando isso em uma linguagem mais próxima da máquina como Assembly.
 
