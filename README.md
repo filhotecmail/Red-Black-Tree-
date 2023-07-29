@@ -16,7 +16,13 @@ Cada passo nessa jornada de aprendizado e aplicação da RBT em Object Pascal é
 O que torna a RBT especial é a aplicação de um conjunto de regras que garantem seu balanceamento e, consequentemente, a sua eficiência na realização de operações de busca, inserção e remoção de elementos. Essas regras são simples e garantem que a altura da árvore seja sempre proporcional ao logaritmo do número de elementos presentes, o que torna as operações praticamente tão rápidas quanto em uma árvore perfeitamente balanceada.
 
 ## Estratégias, como penso em implementar isso e o que eu entendi!.
+Penso em utilizar instruções inline Assembly X86 em operações SIMD para otimização aos acesos e manipulações, com registradores temporários para o swap na Arvore, acredito que a minha motivação parte de um contexto de que se essas operações puderem ocorrer sem a alta camada de abstrações da linguagem , teria um código menos propenso gerando um trabalho mais preguçoso para o Front-End do compilador, e teria menos custo computacional para o Back_End do compilador otimizar essas operações.
 
+Estudando o livro de algoritmos estruturados aplicados a ciência da computação em fortran percebi que algumas operações algumas operações de por exemplo remover O Nó da árvore e depois ter que reindexar novamente para se adequar a estrutura da árvore rubro-negra há um custo computacional de uma complexidade considerável e que acredito que isso de uma forma mais inline - contígua , se torne mais eficiente com menos processamento e custo de processmento e até mesmo custo para Representação IR .
+
+Portanto tenho que pensar em algumas coisas como 
+
+Portabilidade, Manutenção e iteroperabilidade .
 
 
 ## **Rudolf Bayer**
