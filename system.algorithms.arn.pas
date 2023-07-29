@@ -73,10 +73,11 @@ type
     procedure DestroyNode(var x: PNode);
   public
     procedure Init;
-    procedure Insert(key: Integer);
+    procedure Insert(id, data: Integer);
     procedure Delete(key: Integer);
     function Search(key: Integer): PNode;
     procedure InOrderTraversal;
+
   end;
 
 implementation
@@ -100,7 +101,7 @@ end;
 
 procedure TRBTree.Init;
 begin
-
+ FRoot := nil;
 end;
 
 procedure TRBTree.InOrderTraversal;
@@ -108,13 +109,64 @@ begin
 
 end;
 
-procedure TRBTree.Insert(key: Integer);
+procedure TRBTree.Insert(id, data: Integer);
+var
+  LnewNode, Lcurrent, Lparent: PNode;
 begin
+  // Cria um novo nó
+  New(LnewNode);
 
+  LnewNode^.Key := id;
+  LnewNode^.Color := Red;
+  LnewNode^.Left := nil;
+  LnewNode^.Right := nil;
+
+  if FRoot = nil then FRoot := LnewNode else
+  begin
+
+    // Encontra o local de inserção
+    Lcurrent := FRoot;
+    Lparent := nil;
+
+    while True do
+    begin
+      Lparent := Lcurrent;
+      if id < Lcurrent^.Key then
+      begin
+        Lcurrent := Lcurrent^.Left;
+
+        // Se não há filho à esquerda
+        if Lcurrent = nil then
+        begin
+
+          // Modifica os atributos do nó relacionado
+          Lparent^.Left := LnewNode;
+          LnewNode^.parent := Lparent;
+          Break;
+        end;
+      end
+      else
+      begin
+        Lcurrent := Lcurrent^.Right;
+
+        // Se não há filho à direita
+        if Lcurrent = nil then
+        begin
+          // Modifica os atributos do nó relacionado
+          Lparent^.Right := LnewNode;
+          LnewNode^.parent := Lparent;
+          Break;
+        end;
+      end;
+    end;
+  end;
+
+  InsertFixup(LnewNode);
 end;
 
 procedure TRBTree.InsertFixup(var z: PNode);
 begin
+
 
 end;
 
