@@ -1,5 +1,5 @@
  ### Agradecimentos
- Agradeço a Deus primeiramente por essa ooprtunidade de poder continuar estudando o que eu mais gosto de fazer, que é programar.
+ Agradeço a Deus primeiramente por essa oprtunidade de poder continuar estudando o que eu mais gosto de fazer, que é programar.
 Agradeços a minha familía ,minha eposa e filha e meus pais.
 
 Isso é dedicado aos amigos que sempre me apoiaram aos estudos e com muita gentileza me proporcionam uma motivação para continuar nessa linha reta.
