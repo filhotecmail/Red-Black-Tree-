@@ -127,4 +127,6 @@ A árvore ficará assim:
 
 ![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/d9635f60-81c4-4b6f-88d7-ab9310ae8f08)
 
+Em uma Analogia do Mundo real, é como se nós Pegássemos onde queremos rotacionar com os dedos e a arvore se combinasse em cores ordenadas pelos seus valores.seguramos o numero 25 com os dedos e a árvore se moveu para o lado direito.
+
 
