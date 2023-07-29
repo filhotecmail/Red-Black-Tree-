@@ -158,6 +158,14 @@ depois de inserir o nó a mais uma operação verificar se a árvore está balan
 
 ![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/f70cc759-7629-451e-ad23-4d0801bb95c5)
 
+![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/5fc0a11e-e5f1-4a72-9351-ca47b294ed23)
+
+ao inserir um novo nó este nó é definido como vermelho, por que pode reduzir a probabilidade de violar as regras vermelhas e pretas, depois de inserir o nó vamos então realizar algumas análises.
+
+Se O Nó *P* do nó inserido estiver preto ou seja estiver em conformidade com a regra nada será feito.
+Se o Nó P inserido no nó vermelhor e o nó U também for Vermelhor, então transforme o nó G em Vermelho e os nós P e U em Preto. Defina o nó G como sendo o nó Atual e reinicie o ajuste de balanceamento da árvore.
+
+![image](https://github.com/filhotecmail/Red-Black-Tree-/assets/18727307/02bf8117-2111-4df4-ae79-0e0a5db7868c)
 
 
 
