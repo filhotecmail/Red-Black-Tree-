@@ -15,6 +15,10 @@ Cada passo nessa jornada de aprendizado e aplicação da RBT em Object Pascal é
 
 O que torna a RBT especial é a aplicação de um conjunto de regras que garantem seu balanceamento e, consequentemente, a sua eficiência na realização de operações de busca, inserção e remoção de elementos. Essas regras são simples e garantem que a altura da árvore seja sempre proporcional ao logaritmo do número de elementos presentes, o que torna as operações praticamente tão rápidas quanto em uma árvore perfeitamente balanceada.
 
+## Estratégias, como penso em implementar isso e o que eu entendi!.
+
+
+
 ## **Rudolf Bayer**
 
 ![File:Rudolf-Bayer.jpg](http://www.scholarpedia.org/w/images/1/11/Rudolf-Bayer.jpg)
